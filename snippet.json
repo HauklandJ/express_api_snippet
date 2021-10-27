@@ -1,0 +1,17 @@
+"express-api":{
+		"prefix": "express-api",
+		"body": [
+			"//Required librabries: express, nodemon",
+			"//Optianal libraries: request-promise, request\n",
+			"const express = require('express');",
+			"const request = require('request-promise');\n",
+			"const app = express();",
+			"const PORT = process.env.PORT || ${1:5000};\n",
+			"app.use(express.json());\n",
+			"app.get('/', (req, res) => {",
+			"\tres.send('Welcome to the ${2:API_NAME} API.');",
+			"})\n",
+			"//Remove one pair of curly braces surrounding PORT",
+			"app.listen(PORT, () => console.log(`Server running on PORT ${{PORT}}`))"
+		],
+	}
