@@ -26,3 +26,5 @@ Save
 Open a new file in vs code
 
 Type 'express-api'
+
+Type 'app-get'
