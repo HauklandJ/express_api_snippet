@@ -11,8 +11,7 @@
 		"app.get('/', (req, res) => {",
 		"\tres.send('Welcome to the ${2:API_NAME} API.');",
 		"})\n",
-		"//Remove one pair of curly braces surrounding PORT",
-		"app.listen(PORT, () => console.log(`Server running on PORT ${{PORT}}`))"
+		"app.listen(PORT, () => console.log(`Server running on PORT \\${PORT}`))"
 	],
 },
 "app-get":{
