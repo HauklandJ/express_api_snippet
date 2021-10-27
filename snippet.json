@@ -2,7 +2,7 @@
 		"prefix": "express-api",
 		"body": [
 			"//Required librabries: express, nodemon",
-			"//Optianal libraries: request-promise, request\n",
+			"//Optional libraries: request-promise, request\n",
 			"const express = require('express');",
 			"const request = require('request-promise');\n",
 			"const app = express();",
