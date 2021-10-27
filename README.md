@@ -5,11 +5,13 @@ Snippet for creating an express/js API
 In VS code
 CTRL+P 
 >Preferences: Configure User Snippets
+
 Add a new file
 Add the snippet from snippet.js to the file
 Save
 CTRL+P
 >Preferences: Open Settings (JSON)
+
 Add the block of code from settings.json
 Save
 
