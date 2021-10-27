@@ -22,9 +22,11 @@ Add the block of code from settings.json
 
 Save
 
-## Use the snippet
+## Use the snippet to generate the skeleton file
 Open a new file in vs code
 
 Type 'express-api'
+
+## Use the snippet to create a new api path
 
 Type 'app-get'
